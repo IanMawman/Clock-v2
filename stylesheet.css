@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(228, 183, 36); /* this changes the background color */
+    align-content: center;
+}
+p {
+    font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #0d10a0d3;
+    font-size: 30px;
+}
+
+.container {
+    height: 200px;
+    position: relative;
+    
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
